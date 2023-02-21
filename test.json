@@ -3,7 +3,7 @@
  	"data:"[
   		{
 			"USER_ID": 1
-			"APP_ID": "1234APPID1234"
+			"APP_ID": "1234APPID1234",
 			"APP_SECRET" : "enwdj3bshwer43bjhjs9ereuinkjcnsiurev8s",
 			"ACTION": "user.update",
 			"Content_Type":"application/json",
