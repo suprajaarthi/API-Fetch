@@ -13,7 +13,7 @@ $ Load http://localhost:8000 to test the endpoint. It will display a json result
 
 ## API Endpoints
 ***
-# GET server/incomingdata
+# POST server/incomingdata
 ```
 {
  	"message:"success",
@@ -30,6 +30,6 @@ $ Load http://localhost:8000 to test the endpoint. It will display a json result
 }
 ```
 
-# POST /server/incomingdatas
-![ss](https://user-images.githubusercontent.com/51900501/220270097-5969653a-55c0-47fc-b30d-b832673089da.jpg)
+# GET /server/incomingdatas
+![Screenshot_20230217_030053](https://user-images.githubusercontent.com/51900501/220270427-7bc405b8-1992-4bb0-9194-d59a8d817237.png)
 
