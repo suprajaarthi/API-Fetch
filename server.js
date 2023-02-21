@@ -146,8 +146,8 @@ app.delete("/api/user/:id", (req, res, next) => {
 })
 
 
-// Root path
-// app.get("/", (req, res, next) => {
-//     res.json({"message":"Hello"})
-// });
+//Root path
+app.get("/", (req, res, next) => {
+    res.json({"message":"Hey"})
+ });
 
