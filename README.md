@@ -16,11 +16,11 @@ $ Load http://localhost:8000 to test the endpoint. It will display a json result
 # POST server/incomingdata
 ```
 {
- 	"message:"success",
- 	"data:"[
+ 	"message":"success",
+ 	"data":[
   		{
 			"USER_ID": 1
-			"APP_ID": "1234APPID1234"
+			"APP_ID": "1234APPID1234",
 			"APP_SECRET" : "enwdj3bshwer43bjhjs9ereuinkjcnsiurev8s",
 			"ACTION": "user.update",
 			"Content_Type":"application/json",
@@ -28,6 +28,7 @@ $ Load http://localhost:8000 to test the endpoint. It will display a json result
 		}		
 	]
 }
+
 ```
 
 # GET /server/incomingdatas
